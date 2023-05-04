@@ -36,29 +36,29 @@ final class DataStore {
     ]
     
     let emails = [
-        "jjjj@mail.ru",
+        "vvvv@mail.ru",
         "aaaa@mail.ru",
-        "eeee@mail.ru",
-        "hhhh@mail.ru",
+        "yyyy@mail.ru",
+        "rrrr@mail.ru",
         "wwww@mail.ru",
-        "mmmm@mail.ru",
+        "qqqq@mail.ru",
         "xxxx@mail.ru",
         "pppp@mail.ru",
-        "ssss@mail.ru",
-        "llll@mail.ru"
+        "kkkk@mail.ru",
+        "jjjj@mail.ru"
     ]
     
     let phones = [
-        "745396026",
-        "145036843",
-        "287185656",
-        "293520954",
-        "562880225",
-        "738594072",
-        "825654134",
-        "645898473",
-        "432349845",
-        "459477625"
+        "+7 (453) 960-26-32",
+        "+7 (450) 368-43-55",
+        "+7 (871) 856-56-11",
+        "+7 (935) 209-54-78",
+        "+7 (628) 802-25-81",
+        "+7 (385) 940-72-21",
+        "+7 (256) 541-34-29",
+        "+7 (458) 984-73-02",
+        "+7 (323) 498-45-84",
+        "+7 (594) 776-25-95"
     ]
     
     private init() {}

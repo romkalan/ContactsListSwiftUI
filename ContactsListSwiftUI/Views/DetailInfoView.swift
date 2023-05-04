@@ -20,13 +20,13 @@ struct DetailInfoView: View {
                         .frame(width: 100, height: 100)
                     Spacer()
                 }
-                PersonalContactView(
-                    imageName: "phone",
+                CommunicationMethodView(
+                    imageName: Contacts.phone.rawValue,
                     color: .blue,
                     communication: person.phoneNumber
                 )
-                PersonalContactView(
-                    imageName: "tray",
+                CommunicationMethodView(
+                    imageName: Contacts.email.rawValue,
                     color: .blue,
                     communication: person.email
                 )
@@ -39,19 +39,5 @@ struct DetailInfoView: View {
 struct DetailInfoView_Previews: PreviewProvider {
     static var previews: some View {
         DetailInfoView(person: Person(id: 1, name: "Albert", surname: "Johnons", email: "ttt@mail.ru", phoneNumber: "4221"))
-    }
-}
-
-struct PersonalContactView: View {
-    let imageName: String
-    let color: Color
-    let communication: String
-    
-    var body: some View {
-        HStack {
-            Image(systemName: imageName)
-                .foregroundColor(color)
-            Text(communication)
-        }
     }
 }
