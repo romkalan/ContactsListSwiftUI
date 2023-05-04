@@ -21,13 +21,11 @@ struct DetailInfoView: View {
                     Spacer()
                 }
                 CommunicationMethodView(
-                    imageName: Contacts.phone.rawValue,
-                    color: .blue,
+                    imageName: "phone",
                     communication: person.phoneNumber
                 )
                 CommunicationMethodView(
-                    imageName: Contacts.email.rawValue,
-                    color: .blue,
+                    imageName: "tray",
                     communication: person.email
                 )
             }
