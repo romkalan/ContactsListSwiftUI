@@ -14,14 +14,8 @@ struct NumberListView: View {
         NavigationStack {
             List(persons) { person in
                 Section(header: Text(person.fullName)) {
-                    CommunicationMethodView(
-                        imageName: "phone",
-                        communication: person.phoneNumber
-                    )
-                    CommunicationMethodView(
-                        imageName: "tray",
-                        communication: person.email
-                    )
+                    Label(person.phoneNumber, systemImage: "phone")
+                    Label(person.email, systemImage: "tray")
                 }
             }
             .navigationTitle("Contact List")

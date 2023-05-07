@@ -19,14 +19,8 @@ struct DetailInfoView: View {
                     .frame(width: 100, height: 100)
                 Spacer()
             }
-            CommunicationMethodView(
-                imageName: "phone",
-                communication: person.phoneNumber
-            )
-            CommunicationMethodView(
-                imageName: "tray",
-                communication: person.email
-            )
+            Label(person.phoneNumber, systemImage: "phone")
+            Label(person.email, systemImage: "tray")
         }
         .navigationTitle(person.fullName)
     }

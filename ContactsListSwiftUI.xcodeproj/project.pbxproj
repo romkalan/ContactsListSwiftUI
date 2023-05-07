@@ -15,7 +15,6 @@
 		ADBF08D82A04162C0051C919 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08D72A04162C0051C919 /* DataStore.swift */; };
 		ADBF08DE2A0419310051C919 /* DetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08DD2A0419310051C919 /* DetailInfoView.swift */; };
 		ADBF08E42A041F300051C919 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08E32A041F300051C919 /* ContactListView.swift */; };
-		ADBF08E62A043D590051C919 /* CommunicationMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08E52A043D590051C919 /* CommunicationMethodView.swift */; };
 		ADBF08E82A0444180051C919 /* NumberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08E72A0444180051C919 /* NumberListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		ADBF08D72A04162C0051C919 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		ADBF08DD2A0419310051C919 /* DetailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoView.swift; sourceTree = "<group>"; };
 		ADBF08E32A041F300051C919 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
-		ADBF08E52A043D590051C919 /* CommunicationMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationMethodView.swift; sourceTree = "<group>"; };
 		ADBF08E72A0444180051C919 /* NumberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +93,6 @@
 				ADBF08C62A04157D0051C919 /* ContentView.swift */,
 				ADBF08E32A041F300051C919 /* ContactListView.swift */,
 				ADBF08DD2A0419310051C919 /* DetailInfoView.swift */,
-				ADBF08E52A043D590051C919 /* CommunicationMethodView.swift */,
 				ADBF08E72A0444180051C919 /* NumberListView.swift */,
 			);
 			path = Views;
@@ -197,7 +194,6 @@
 			files = (
 				ADBF08D32A0415E50051C919 /* Person.swift in Sources */,
 				ADBF08E42A041F300051C919 /* ContactListView.swift in Sources */,
-				ADBF08E62A043D590051C919 /* CommunicationMethodView.swift in Sources */,
 				ADBF08E82A0444180051C919 /* NumberListView.swift in Sources */,
 				ADBF08D82A04162C0051C919 /* DataStore.swift in Sources */,
 				ADBF08C72A04157D0051C919 /* ContentView.swift in Sources */,
