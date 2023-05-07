@@ -13,7 +13,7 @@ struct NumberListView: View {
     var body: some View {
         NavigationStack {
             List(persons) { person in
-                Section(header: Text(person.fullName)) {
+                Section(header: Text(person.fullName).font(.headline)) {
                     Label(person.phoneNumber, systemImage: "phone")
                     Label(person.email, systemImage: "tray")
                 }
