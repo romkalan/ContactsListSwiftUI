@@ -43,7 +43,7 @@ final class DataStore {
         "wwww@mail.ru",
         "qqqq@mail.ru",
         "xxxx@mail.ru",
-        "zzzz@mail.ru",
+        "pppp@mail.ru",
         "kkkk@mail.ru",
         "jjjj@mail.ru"
     ]
